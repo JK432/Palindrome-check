@@ -12,11 +12,11 @@ void isPalindrome(char str[])
     {
         if (str[l++] != str[h--])
         {
-            printf("It is not a palindrome\n", str);
+            printf("It is not a palindrome\n");
             return;
         }
     }
-    printf("It is a palindrome\n", str);
+    printf("It is a palindrome\n");
 }
 
 int main()
